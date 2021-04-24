@@ -10,6 +10,8 @@
 
 ### Demo
 
+![image](https://github.com/Allen0524/Calendar/blob/main/calendarGIF.gif)
+
 ## skills
 
 * React
