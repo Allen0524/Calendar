@@ -1,0 +1,69 @@
+@mixin plate {
+  border-radius: 50%;
+  color: #ffffff;
+  display: inline-block;
+  height: 1.75rem;
+  margin-right: 0.375rem;
+  position: relative;
+  width: 1.75rem;
+}
+
+@mixin btn {
+  cursor: pointer;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 380px;
+  padding: 16px;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px 3px rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+  .input {
+    border: 0;
+    border-bottom: 1px solid #e5e5e5;
+    margin: 8px 0px;
+    width: 90%;
+    padding: 5px;
+    outline-width: 0;
+  }
+  .datePickSection {
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+    justify-content: space-between;
+  }
+  .colorPickSection {
+    display: flex;
+    align-items: center;
+    margin: 15px 0px;
+    > div {
+      @include plate;
+    }
+  }
+  .btnGroup {
+    display: flex;
+    flex-direction: row-reverse;
+    .save {
+      @include btn;
+      background: #1873e7;
+      border: 0;
+      border-radius: 5px;
+      color: #ffffff;
+      padding: 5px 8px;
+    }
+    .cancel {
+      @include btn;
+      background: #ffffff;
+      border: 0;
+      border-radius: 5px;
+      color: #333333;
+      padding: 5px 8px;
+      margin-right: 18px;
+    }
+  }
+}

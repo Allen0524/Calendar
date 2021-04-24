@@ -1,0 +1,11 @@
+export const NAVIGATE_YEAR_MONTH = 'navigate_year_month';
+export const NEW_MODAL = 'new_modal';
+export const CANCEL_MODAL = 'cancel_modal';
+export const CHANGE_INPUT_VALUE = 'change_input_value';
+export const SAVE_MODAL = 'save_modal';
+export const CHANGE_COLOR = 'change_color';
+export const TIME_BLOCK_CHANGE = 'time_block_change';
+export const HOURS_CHANGE = 'hours_change';
+export const MINS_CHANGE = 'mins_change';
+export const DELETE_TASK = 'delets_task';
+export const UPDATE_MODAL = 'update_modal';

@@ -1,0 +1,29 @@
+.dayBlock {
+  width: calc(100% / 7);
+  text-align: center;
+  border-right: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  //   overflow: auto;
+  .dayWrapper {
+    padding: 5px 0px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    > h5 {
+      margin: 0;
+    }
+  }
+  .today {
+    background-color: #1873e7;
+    color: #ffffff;
+    border-radius: 50%;
+    text-align: center;
+    height: 1.225rem;
+    width: 1.425rem;
+    margin: 0 auto;
+  }
+  .taskWrapper {
+    height: 68%;
+    overflow: auto;
+  }
+}

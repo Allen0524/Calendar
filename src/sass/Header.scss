@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 16px 32px;
+  button {
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    color: #333333;
+    padding: 0.5rem 1rem;
+    outline-width: 0;
+    cursor: pointer;
+    &:hover {
+      transition: 0.3s;
+      background: #e5e5e5c2;
+    }
+  }
+  .rightSection {
+    display: flex;
+    .selectWrapper {
+      display: flex;
+      margin-left: 32px;
+      svg {
+        cursor: pointer;
+        padding: 4px;
+        width: 24px;
+        height: 24px;
+        &:hover {
+          transition: 0.4s;
+          background-color: #e6e6e6;
+          border-radius: 50%;
+        }
+      }
+    }
+    .dateGroup {
+      display: flex;
+      align-items: center;
+      font-weight: 500;
+      font-size: 20px;
+      margin-left: 32px;
+      span {
+        margin-right: 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+.task {
+  margin: 0;
+  margin-top: 2px;
+  display: flex;
+  padding: 0px 5px;
+  color: #fff;
+  align-items: center;
+  font-size: 8px;
+  .title {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 1px 3px 1px 3px;
+    border-radius: 0.325rem;
+    .cancel {
+      margin: 0;
+      cursor: pointer;
+      background-size: contain;
+      background-image: url(../img/cancel.png);
+      height: 20px;
+      width: 20px;
+      background-repeat: no-repeat;
+    }
+  }
+
+  .blue {
+    background: #6d9dd1;
+  }
+  .red {
+    background: #e73f3f;
+  }
+  .orange {
+    background: #f76c27;
+  }
+  .yellow {
+    background: #e7e737;
+  }
+  .perpal {
+    background: #7e45d3;
+  }
+}
